@@ -1,0 +1,6 @@
+General scan
+sudo tcpdump
+
+If you want to scan only for a  particular type of packet from a particular source, then this command can be used
+This command is to detect incoming ICMP packets
+sudo tcpdump -i enp0s1 icmp and src host 172.20.10.2
